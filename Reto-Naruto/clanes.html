@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="CSS/icono.png" type="image/x-icon" />
+        <title>Naruto</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="CSS/style.css" />
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img class="logoNaruto" src="CSS/logo.jpg" alt=""
+            /></a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto text-center mb-4">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="clanes.html">Clanes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="personajes.html">Personajes</a>
+                    </li>
+                </ul>
+            <div class="login d-flex flex-row justify-content-center mt-4"></div>
+            <div class="iconodetails">
+                <a id="login1" class="nav-link" href="#">
+                <img
+                    onmouseover="show()"
+                    onmouseout="show()"
+                    width="20px"
+                    src="CSS/user.png"
+                    alt="user"
+                /></a>
+                <p id="textLogin">Login</p>
+            </div>
+            <div class="iconodetails">
+                <a id="login2" class="nav-link" href="#">
+                <img
+                    onmouseover="show2()"
+                    onmouseout="show2()"
+                    width="20px"
+                    src="CSS/logout.png"
+                    alt="logout"
+                /></a>
+                <p id="textLogout">Logout</p>
+            </div>
+            <div class="icono-details">
+                <p id="loginUser" class="nav-user"></p>
+            </div>
+            </div>
+        </div>
+        </nav>
+    <section class="contenedor container-fluid p-5">
+        <h1 style="padding: 80px" class="text-white text-center">
+        Clanes más poderosos
+        </h1>
+        <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+                    Sus miembros desde su nacimiento poseen un Kekkei Genkai conocido como Byakugan
+            </div>
+            <img src="CSS/Clan hyugaa.jpg" alt="Hyuga" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+                Realmente poderosos gracias a la cantidad de jutsus que conocían y a sus inmensas cantidades de chakra.
+                </h2>
+            </div>
+            <img src="CSS/Clan Uzumaki.jpg" alt="Uzumaki" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+            Reconocidos por su Sharingan, uno de los Kekkei Genkai más poderosos.
+                </h2>
+            </div>
+            <img src="CSS/Clan Uchiha.jpg" alt="Uchiha" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+                Considerado como el clan más poderoso que alguna vez existió.
+                </h2>
+            </div>
+            <img src="CSS/Clan Senju.png" alt="Senju" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+                Este fue el primer clan reconocido en el mundo shinobi, recibiendo el nombre de Clan Ōtsutsuki.
+            </div>
+            <img src="CSS/Clan Otsutsuki.png" alt="Otsutsuki" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="imagenes-container">
+            <div class="imagenes-details">
+                <h2>
+                Los miembros de este clan se caracterizan por utilizar insectos como armas que se alimentan de chakra
+                </h2>
+            </div>
+            <img src="CSS/Clan Aburame.png" alt="Aburame" />
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="JS/naruto.js"></script>
+</body>
+</html>
